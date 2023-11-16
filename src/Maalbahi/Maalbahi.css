@@ -1,0 +1,19 @@
+.cart {
+    position: sticky;
+    top: 0px;
+    padding: 14px;
+}
+
+.cart-header {
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.title-name {
+    display: block;
+}
+
+img{
+    width: 15px;
+    height: 20px;
+}

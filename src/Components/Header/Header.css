@@ -1,0 +1,41 @@
+.header-container {
+    height: 80px;
+    background-color: rgb(4, 87, 87);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 84px;
+}
+
+.header-container h2 {
+    margin: 0px;
+    padding: 0px;
+    font-size: 28px;
+    color: rgb(192, 90, 72);
+}
+
+.header-container h2 span {
+    color: rgb(238, 80, 23);
+    font-size: 32px;
+}
+
+.navs a {
+    color: #FFF;
+    text-decoration: none;
+    margin-left: 18px;
+    padding: 7px 14px;
+    /* background-color: yellowgreen; */
+    border-radius: 5px;
+}
+
+.navs a:hover {
+    background-color: rgb(197, 67, 19);
+    transition: 2s;
+}
+
+@media screen and (max-width:900px) {
+    .navs {
+        display: none;
+    }
+
+}
